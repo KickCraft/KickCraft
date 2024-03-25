@@ -1,0 +1,72 @@
+site_name: KickCraft Wiki
+repo_url: https://github.com/Landon-9999/kickcraft
+repo_name: KickCraft Public Repo
+
+plugins:
+  - blog
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      title: On this page
+      toc_depth: 3
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - abbr
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/kickcraftsmp
+      name: KickCraft Discord
+
+theme:
+  name: material
+  font:
+    text: Quicksand
+  logo: images/logo.png
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - toc.follow
+    
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+        primary: green
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: green
+      accent: indigo
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+      primary: green
+      accent: amber
+
