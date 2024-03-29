@@ -1,6 +1,6 @@
 ---
-title: Master List
-icon: material/home
+title: All Plugins
+icon: material/list-box
 ---
 
 ## Economy

@@ -1,10 +1,15 @@
 site_name: KickCraft Wiki
 repo_url: https://github.com/Landon-9999/kickcraft
 repo_name: KickCraft Public Repo
+edit_uri: edit/main/docs/
 
 plugins:
   - blog
   - search
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-authors
 
 markdown_extensions:
   - toc:
@@ -29,6 +34,9 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kickcraftsmp
       name: KickCraft Discord
+    - icon: material/image-off
+      link: https://nodecraft.com
+      name: Nodecraft
 
 theme:
   name: material
@@ -36,13 +44,15 @@ theme:
     text: Quicksand
   logo: images/logo.png
   features:
-    - navigation.tabs
     - navigation.top
     - navigation.footer
     - navigation.indexes
     - navigation.sections
+    - navigation.prune
     - toc.follow
-    
+    - content.action.edit
+    - content.tooltips
+
 
   palette:
     # Palette toggle for automatic mode
