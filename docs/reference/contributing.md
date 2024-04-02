@@ -27,6 +27,7 @@ repository into a subfolder of your project root which might be useful if you
 want to use the very latest version:
 
 ```
+git clone https://github.com/KickCraft/KickCraft.git
 git clone https://github.com/squidfunk/mkdocs-material.git
 ```
 
