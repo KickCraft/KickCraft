@@ -1,14 +1,27 @@
 
-name: Sample form
-description: Create an issue. 
-title: "[Bug]: "
-labels: [bug]
+name: Bug report
+description: Use this template to report bugs!
+title: '[Bug]: '
+labels:
+  - bug
+projects: ["kickcraft/3"]
 body:
-  - type: input
-    id: sample-input
+  - type: dropdown
+    id: env
     attributes:
-      label: Sample Input
-      description: Write text here.
-      placeholder: Here will be text
+      label: Where is the bug?
+      options:
+        - MC Server
+        - Wiki
+        - Discord
+        - Modpack
+    validations:
+      required: true
+  - type: input
+    id: affect
+    attributes:
+      label: Who does this affect?
+      description: Just you, a few people, or everyone?
+      placeholder: Everyone is affected by this bug because...
     validations:
       required: true
