@@ -3,8 +3,10 @@ name: Bug report
 description: Use this template to report bugs!
 title: '[Bug]: '
 labels:
-  - bug
-projects: ["kickcraft/3"]
+  - Bug
+  - Needs Triage
+projects:
+  - KickCraft/3
 body:
   - type: dropdown
     id: env
