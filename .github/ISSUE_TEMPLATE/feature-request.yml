@@ -3,6 +3,8 @@ description: Suggest an idea for KickCraft.
 labels:
   - Needs Triage
   - Enhancement
+projects:
+  - KickCraft/6
 body:
   - type: markdown
     attributes:
