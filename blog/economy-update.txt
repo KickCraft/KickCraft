@@ -1,0 +1,23 @@
+---
+draft: false
+date: 2024-03-24
+categories:
+  - Updates
+authors:
+  - landon
+  - rosy
+---
+
+# Economy Update
+Hello all! Welcome to the economy update. This is a massive rework of the economy, with more updates following in the coming weeks.
+
+<!-- more -->
+
+## Main Changes
+- blah
+
+## Removals
+- bleh
+
+## Additions
+- bloh

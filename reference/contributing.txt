@@ -1,0 +1,38 @@
+---
+title: Contributing
+icon: simple/github
+---
+
+# Getting started
+
+
+## Installation
+
+### with pip <small>recommended</small> { #with-pip data-toc-label="with pip" }
+
+Material for MkDocs is published as a [Python package] and can be installed with
+`pip`, ideally by using a [virtual environment]. Open up a terminal and install
+Material for MkDocs with:
+
+=== "Latest"
+
+    ``` sh
+    pip install mkdocs-material
+    ```
+
+### with git
+
+Material for MkDocs can be directly used from [GitHub] by cloning the
+repository into a subfolder of your project root which might be useful if you
+want to use the very latest version:
+
+```
+git clone https://github.com/KickCraft/KickCraft.git
+git clone https://github.com/squidfunk/mkdocs-material.git
+```
+
+Next, install the theme and its dependencies with:
+
+```
+pip install -e mkdocs-material
+```
