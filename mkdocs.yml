@@ -22,6 +22,12 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - attr_list
   - md_in_html
   - pymdownx.emoji:
@@ -29,20 +35,30 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - abbr
 
+# Page tree
+nav:
+  - Home: index.md
+  - Discord Rules: discord-rules.md
+  - MC Server Rules: mc-rules.md
+  - Blog:
+    - blog/index.md
+
 extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kickcraftsmp
       name: KickCraft Discord
-    - icon: material/image-off
-      link: https://nodecraft.com
-      name: Nodecraft
+    - icon: simple/kick
+      link: https://kick.com/
+      name: Kick
+    - icon: logos/nodecraft-logogram
+      link: https://nodecraft.com/r/kickcraft
+      name: Brought to you by Nodecraft!
 
 theme:
   name: material
   font:
     text: Quicksand
-  logo: images/logo.png
   features:
     - navigation.top
     - navigation.footer
@@ -52,7 +68,8 @@ theme:
     - toc.follow
     - content.action.edit
     - content.tooltips
-
+  custom_dir: overrides
+  favicon: images/logo.png
 
   palette:
     # Palette toggle for automatic mode
@@ -79,4 +96,3 @@ theme:
         name: Switch to system preference
       primary: green
       accent: amber
-

@@ -5,6 +5,7 @@ categories:
   - Updates
 authors:
   - landon
+  - rosy
 ---
 
 # Economy Update

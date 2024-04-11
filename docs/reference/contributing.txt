@@ -36,5 +36,3 @@ Next, install the theme and its dependencies with:
 ```
 pip install -e mkdocs-material
 ```
-
-  [GitHub]: https://github.com/squidfunk/mkdocs-material
