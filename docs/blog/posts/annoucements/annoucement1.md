@@ -1,6 +1,10 @@
 ---
 draft: false
+<<<<<<< HEAD
 date: 2024-04-12
+=======
+date: 2024-04-11
+>>>>>>> 5f3b1c8a3921db60dc4ad70a3cc145bf9b57012c
 categories:
   - Annoucements
 authors:
