@@ -70,6 +70,7 @@ theme:
     - content.tooltips
   custom_dir: overrides
   favicon: images/logo.png
+  logo: images/logo.png
 
   palette:
     # Palette toggle for automatic mode
