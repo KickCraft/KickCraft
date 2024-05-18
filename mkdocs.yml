@@ -36,13 +36,13 @@ markdown_extensions:
   - abbr
 
 # Page tree
-nav:
-  - Home: index.md
-  - Discord Rules: discord-rules.md
-  - MC Server Rules: mc-rules.md
-  - Staff Links: staff-links.md
-  - Blog:
-    - blog/index.md
+#nav:
+#  - Home: index.md
+#  - Discord Rules: discord-rules.md
+#  - MC Server Rules: mc-rules.md
+#  - Staff Links: staff-links.md
+#  - Blog:
+#    - blog/index.md
 
 extra:
   social:
@@ -59,7 +59,7 @@ extra:
 theme:
   name: material
   font:
-    text: Quicksand
+    text: Comfortaa
   features:
     - navigation.top
     - navigation.footer

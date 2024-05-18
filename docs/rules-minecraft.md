@@ -1,5 +1,5 @@
 ---
-title: MC Server Rules
+title: Rules - Minecraft
 icon: material/minecraft
 ---
 

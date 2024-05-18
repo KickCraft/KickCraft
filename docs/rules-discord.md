@@ -1,5 +1,5 @@
 ---
-title: Discord Rules
+title: Rules - Discord
 icon: simple/discord
 ---
 

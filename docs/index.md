@@ -21,9 +21,9 @@ This wiki is your one-stop shop for everything related to our Minecraft server d
 * **Frequently Asked Questions:** Got a burning question? Chances are, it's answered here.
 --->
 
-## How to Contribute
+## How to Contribute on this Wiki
 !!! info
-    Coming soon!
+    Coming soon! An announcement will be made in Discord along with a blog post here on the wiki detailing the future of this wiki.
 <!---
 This wiki thrives on collaboration! We encourage all content creators on the server to contribute their knowledge and creativity.
 
